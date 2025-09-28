@@ -11,7 +11,6 @@ cursor.execute('''
     )
 ''')
 
-print("\n--- Project 4, Part A: Save 10 Records ---")
 for i in range(10):
     first_name = input(f"Enter first name for student {i+1}/10: ")
     last_name = input(f"Enter last name for student {i+1}/10: ")
@@ -19,7 +18,6 @@ for i in range(10):
 conn.commit()
 print("10 student records saved.\n")
 
-print("\n--- Project 4, Part B: Search Data ---")
 search_last_name = input("Enter the last name to search for: ")
 cursor.execute('SELECT first_name, last_name FROM students WHERE last_name = ?', (search_last_name,))
 results = cursor.fetchall()
@@ -30,8 +28,6 @@ if results:
 else:
     print("No students found with that last name.")
 
-
-print("\n--- Project 4, Part C: Update Data ---")
 update_last_name = input("Enter the last name of the student you want to update: ")
 new_first_name = input("Enter the new first name: ")
 
