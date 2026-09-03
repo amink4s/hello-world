@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated": "2026-09-03T18:30:00Z",
+  "chain": "robinhood",
+  "contract": "0xb49da402a1b93ed79a91a89d639b4d519a955cc9",
+  "vig_token": "0xD21fA0527928FD794C601553D0950e9f9C714bA3",
+  "rake_bps": 300,
+  "sides": { "home": 0, "draw": 1, "away": 2 },
+  "matches": [
+    { "id": 1, "home": "Ipswich Town", "away": "Liverpool", "kickoff": 1788548400, "kickoff_utc": "2026-09-04T19:00:00Z", "allow_draw": true, "sport": "soccer", "league": "Premier League", "espn_id": "401879288", "espn_league": "soccer/eng.1", "status": "open" },
+    { "id": 2, "home": "Athletic Club", "away": "Atletico Madrid", "kickoff": 1788617700, "kickoff_utc": "2026-09-05T14:15:00Z", "allow_draw": true, "sport": "soccer", "league": "La Liga", "espn_id": "401882895", "espn_league": "soccer/esp.1", "status": "open" },
+    { "id": 3, "home": "Real Betis", "away": "Real Madrid", "kickoff": 1788548400, "kickoff_utc": "2026-09-04T19:00:00Z", "allow_draw": true, "sport": "soccer", "league": "La Liga", "espn_id": "401882894", "espn_league": "soccer/esp.1", "status": "open" },
+    { "id": 4, "home": "New York Giants", "away": "Dallas Cowboys", "kickoff": 1789345200, "kickoff_utc": "2026-09-14T00:20:00Z", "allow_draw": false, "sport": "football", "league": "NFL", "espn_id": "401872930", "espn_league": "football/nfl", "status": "open" },
+    { "id": 5, "home": "Valencia", "away": "Barcelona", "kickoff": 1788704100, "kickoff_utc": "2026-09-06T14:15:00Z", "allow_draw": true, "sport": "soccer", "league": "La Liga", "espn_id": "401882888", "espn_league": "soccer/esp.1", "status": "open" },
+    { "id": 6, "home": "Los Angeles Rams", "away": "San Francisco 49ers", "kickoff": 1789086900, "kickoff_utc": "2026-09-11T00:35:00Z", "allow_draw": false, "sport": "football", "league": "NFL", "espn_id": "401872657", "espn_league": "football/nfl", "status": "open" },
+    { "id": 7, "home": "Kansas City Chiefs", "away": "Denver Broncos", "kickoff": 1789431300, "kickoff_utc": "2026-09-15T00:15:00Z", "allow_draw": false, "sport": "football", "league": "NFL", "espn_id": "401872931", "espn_league": "football/nfl", "status": "open" },
+    { "id": 8, "home": "Everton", "away": "Manchester United", "kickoff": 1788699600, "kickoff_utc": "2026-09-06T13:00:00Z", "allow_draw": true, "sport": "soccer", "league": "Premier League", "espn_id": "401879291", "espn_league": "soccer/eng.1", "status": "open" },
+    { "id": 9, "home": "Arsenal", "away": "Chelsea", "kickoff": 1788708600, "kickoff_utc": "2026-09-06T15:30:00Z", "allow_draw": true, "sport": "soccer", "league": "Premier League", "espn_id": "401879292", "espn_league": "soccer/eng.1", "status": "open" }
+  ]
+}
